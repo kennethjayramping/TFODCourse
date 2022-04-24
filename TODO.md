@@ -67,6 +67,6 @@ Then, add variables to system by searching in Start menu: EDIT ENVIRONMENT VARIA
 
 Then train
 
-
+print("RTX2060 is"," in use" if tf.config.list_physical_devices('GPU') else " not connected")
 
 
